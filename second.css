@@ -1,0 +1,97 @@
+.border1 {
+    background: #939597;
+    display: inline-block;
+    margin: 10px auto;
+    border-radius: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 15px;
+}
+.border2 {
+    background: #34568b;
+    display: inline-block;
+    margin: 10px auto;
+    border-radius: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 15px;
+}
+.border3 {
+    background: #485167;
+    display: inline-block;
+    margin: 10px auto;
+    border-radius: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 15px;
+}
+
+.border1,.border2,.border3{
+    width: 284px;
+    height: 270px;
+    padding: 6px;
+}
+.border1 li,.border2 li,.border3 li{
+    list-style: none;
+    margin: 2px;
+    padding: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 1s;
+}
+.box-uli {
+    border-bottom: 0.1px solid rgba(0, 0, 0, 0.309);
+    margin: -13px 7% -4px 7%;
+}
+.sp-bx {
+    top: -35px;
+    position: relative;
+}
+.border1 li,.border2 li,.border3 li{
+    transition: 0.4s ease-out;
+}
+.border1 li:hover,.border2 li:hover,.border3 li:hover{
+    font-size: 18px;
+    margin: -9px 5px 20px 3px;
+    text-shadow: 0px 0px 15px rgb(0, 0, 0);
+    
+}
+.border1 li:active,.border2 li:active,.border3 li:active{
+    color: black;
+    transition: 0s;
+    
+}
+/* .point{
+    margin-top: 10px;
+} */
+
+
+.second-row-heading{
+    display: block;
+    width: 61.2%;
+    margin:0 auto;
+    color: #008000;
+    font-weight: 600;
+    /* border: 2px solid black; */
+}
+.upfotr{
+    background:#e9ecef;
+    width: 100%;
+    height: 190px;
+    margin-top:100px;
+}
+.upfotr img{
+    display: inline-block;
+    width: 160px;
+    margin:  auto;
+    aspect-ratio: 2/2;
+    object-fit: contain;
+}
+
+
+.second-row-heading-x{
+    color: #666666;
+}
